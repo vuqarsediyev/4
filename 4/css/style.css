@@ -35,31 +35,64 @@ body {
     margin-bottom: 50px;
 }
 .tags {
+    
     display: inline-block;
     margin: 0;
     margin-bottom: 50px;
+
 }
 .tags a {
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #3f2aff;
     margin: 0 25px 0 0;
     padding: 24px 49px;
 }
 .tags a:last-child {
     margin-left: 0;
 }
+
+.down-icon {
+    padding-left: 30px;
+    background-image: url(4/img/download.png);
+    background-position: left center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+/* Article Css */
+
 .container {
     margin: 0 auto;
     padding: 80px 0;
     width: 1170px;
 }
 .container h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    color: #333;
     margin:0;
     margin-bottom: 40px;
 }
 .container p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333;
     width: 872px;
     margin: 0;
     margin-bottom: 40px;
 }
+
+.blue_p {
+    border-radius: 20px;
+    padding: 50px 95px;
+    width: 100%;
+    font-size: 30px;
+    color: white;   
+    background-color: #3f2aff;
+}
+
 .article {
     border-radius: 20px;
     padding: 30px;
