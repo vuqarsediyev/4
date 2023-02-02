@@ -54,7 +54,7 @@ body {
 
 .down-icon {
     padding-left: 30px;
-    background-image: url(4/img/download.png);
+    background-image: url(../img/download.png);
     background-position: left center;
     background-size: 20px 20px;
     background-repeat: no-repeat;
@@ -66,14 +66,20 @@ body {
     padding: 80px 0;
     width: 1170px;
 }
+ 
 .container h1 {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 60px;
     line-height: 60px;
     color: #333;
     margin:0;
     margin-bottom: 40px;
 }
+
+span {
+    font-weight: 700;
+    }
+
 .container p {
     font-weight: 400;
     font-size: 20px;
@@ -84,7 +90,7 @@ body {
     margin-bottom: 40px;
 }
 
-.blue_p {
+#link-1 .blue_p {
     border-radius: 20px;
     padding: 50px 95px;
     width: 100%;
@@ -97,7 +103,17 @@ body {
     border-radius: 20px;
     padding: 30px;
     background-color: #f3f3f3;
+    background-position: right;
+    background-repeat: no-repeat;
 }
+.article {
+    background-image: url(../img/decorate-1.png);
+}
+
+.nd {
+    background-image: url(../img/decorate-2.png);
+}
+
 .article:not(last-child) {
     margin: 0;
     margin-bottom: 40px;
@@ -110,14 +126,34 @@ body {
 .container h2 {
     margin: 0;
     margin-bottom: 10px;
+    font-size: 40px;
+    line-height: 46px;
+    color: #333;
 }
 .container h3 {
     margin: 0;
     margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    color: #333;
 }
+
 .article ul {
     padding-left: 15px;
 }
+
+.article ul li {
+    border-bottom: 1px solid #3f2aff;
+    color: #3f2aff;
+    font-size: 20px;
+    width: max-content;
+}
+
+ul li::marker {
+    color: #3f2aff;
+}
+
 .article ul li:not(last-child) {
     margin: 0;
     margin-bottom: 20px;
@@ -130,7 +166,17 @@ figure img {
     margin-bottom: 0;
 }
 figure {
+    font-size: 0;
     display: inline-block;
     margin-bottom: 40px;
     width: 872px;
+}
+
+figure figcaption {
+    margin-top: 0;
+    font-size: 14px;  
+    font-weight: 400;
+    text-align: center;
+    padding: 19px 19px;
+    border: 1px solid #b6b6b6;
 }
