@@ -180,3 +180,25 @@ figure figcaption {
     padding: 19px 19px;
     border: 1px solid #b6b6b6;
 }
+
+/* Modules CSS */
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    max-width: 100%;
+    background-color:white;
+    padding: 0 ;
+}
+
+.header {
+    padding-top: 50px;
+    margin-bottom: 25px;
+}
+
+.arrow {
+    color: #3F2AFF;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+
