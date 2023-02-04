@@ -1,25 +1,28 @@
 html {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 a {
-	color: inherit;
-	text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 img {
-	max-width: 100%;
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 40px;
 }
 
 body {
-	font-family: Arial, Verdana, sans-serif;
+    font-family: Arial, Verdana, sans-serif;
 }
+
 .main-content {
     display: flex;
     flex-direction: column;
@@ -29,18 +32,21 @@ body {
     color: #fff;
     background-color: #070217;
 }
+
 .logotip {
-    display:block;
-    margin:0;
+    display: block;
+    margin: 0;
     margin-bottom: 50px;
 }
+
 .tags {
-    
+
     display: inline-block;
     margin: 0;
     margin-bottom: 50px;
 
 }
+
 .tags a {
     font-weight: 700;
     font-size: 18px;
@@ -48,6 +54,7 @@ body {
     margin: 0 25px 0 0;
     padding: 24px 49px;
 }
+
 .tags a:last-child {
     margin-left: 0;
 }
@@ -59,6 +66,7 @@ body {
     background-size: 20px 20px;
     background-repeat: no-repeat;
 }
+
 /* Article Css */
 
 .container {
@@ -66,19 +74,19 @@ body {
     padding: 80px 0;
     width: 1170px;
 }
- 
-.container h1 {
+
+.container-header {
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
     color: #333;
-    margin:0;
+    margin: 0;
     margin-bottom: 40px;
 }
 
 span {
     font-weight: 700;
-    }
+}
 
 .container p {
     font-weight: 400;
@@ -95,7 +103,7 @@ span {
     padding: 50px 95px;
     width: 100%;
     font-size: 30px;
-    color: white;   
+    color: white;
     background-color: #3f2aff;
 }
 
@@ -106,6 +114,7 @@ span {
     background-position: right;
     background-repeat: no-repeat;
 }
+
 .article {
     background-image: url(../img/decorate-1.png);
 }
@@ -118,19 +127,22 @@ span {
     margin: 0;
     margin-bottom: 40px;
 }
+
 .article p {
     margin: 0;
     width: 692px;
     margin-bottom: 10px;
 }
-.container h2 {
+
+.article-header {
     margin: 0;
     margin-bottom: 10px;
     font-size: 40px;
     line-height: 46px;
     color: #333;
 }
-.container h3 {
+
+.link-header {
     margin: 0;
     margin-bottom: 10px;
     font-weight: 400;
@@ -139,66 +151,43 @@ span {
     color: #333;
 }
 
-.article ul {
+.list {
     padding-left: 15px;
+    margin: 0;
 }
 
-.article ul li {
+.list-item {
     border-bottom: 1px solid #3f2aff;
     color: #3f2aff;
     font-size: 20px;
     width: max-content;
 }
 
-ul li::marker {
+.list-item::marker {
     color: #3f2aff;
 }
 
-.article ul li:not(last-child) {
+.list-item:not(last-child) {
     margin: 0;
     margin-bottom: 20px;
 }
-img  {
-    margin: 0;
-    margin-bottom: 40px;
-}
-figure img {
+
+.figure-img {
     margin-bottom: 0;
 }
-figure {
+
+.figure {
     font-size: 0;
     display: inline-block;
     margin-bottom: 40px;
     width: 872px;
 }
 
-figure figcaption {
+.figure figcaption {
     margin-top: 0;
-    font-size: 14px;  
+    font-size: 14px;
     font-weight: 400;
     text-align: center;
     padding: 19px 19px;
     border: 1px solid #b6b6b6;
 }
-
-/* Modules CSS */
-.container {
-    width: 1170px;
-    margin: 0 auto;
-    max-width: 100%;
-    background-color:white;
-    padding: 0 ;
-}
-
-.header {
-    padding-top: 50px;
-    margin-bottom: 25px;
-}
-
-.arrow {
-    color: #3F2AFF;
-    margin: 0;
-    margin-bottom: 25px;
-}
-
-
