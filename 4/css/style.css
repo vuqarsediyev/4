@@ -76,7 +76,7 @@ body {
 }
 
 .container-header {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 60px;
     line-height: 60px;
     color: #333;
@@ -85,7 +85,7 @@ body {
 }
 
 span {
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .container p {
